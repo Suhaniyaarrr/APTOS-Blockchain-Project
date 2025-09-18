@@ -1,0 +1,11 @@
+[package]
+name = "automated_savings"
+version = "0.0.1"
+
+[addresses]
+admin = "0x79df6a1cea4b8e55d26a9bb406a6a16c433c20c520777521200a4ac4f7519d9d"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+
+

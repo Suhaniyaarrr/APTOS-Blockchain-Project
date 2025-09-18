@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #495057;
+  background: #F8F9FA;
+}
+
+.btn-primary {
+  @apply bg-coral text-white hover:opacity-90 rounded-md px-4 py-2 font-semibold;
+}
+
+.card {
+  @apply bg-white dark:bg-navy text-charcoal dark:text-gray-200 rounded-xl shadow p-4;
+}
+
+
